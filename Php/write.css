@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding:  0 ;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url(pic/town.gif);
+    background-size: cover;
+    background-position: center;
+}
+.head{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: azure;
+}
+.text{
+    margin-top: 30px;
+    font-size: 25px;
+    color: azure;
+
+}
+.btn_sub{
+    margin-top: 50px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn_reset{
+    background-color: #b43a3a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 7px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.s1:hover{
+    background-color: #e294cf;
+}
+button:hover {
+    background-color: #0056b3;
+}
+button {
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px; 
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:focus {
+    outline: none;
+}
+.checkbox{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    outline:3px ;
+}
+.return{
+    position: fixed;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #e95123; 
+            color:#fff; 
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+}
+.return:hover{
+    background-color: rgb(255, 38, 0);
+}

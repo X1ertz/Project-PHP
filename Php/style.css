@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding:  0 ;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size:  1rem ;
+}
+
+a:hover{
+    color: orange;
+}
+header{
+    position: relative;
+    padding: 0 2rem;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarbar .logo a{
+    font-size:  4rem;
+    font-weight: bold;
+}
+
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+.navbar .toggle_btn{
+    color:aliceblue;
+    font-size: 1.5rem;
+    cursor:pointer;
+    display: none;
+}
+
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background-color: black;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+.dropdown_menu.open{
+    height: 240px;
+}
+.dropdown_menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown_menu .action_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 992px){
+    .navbar .links,
+    .navbar .action_btn{
+        display: none;
+    }
+    .navbar .toggle_btn{
+        display: block;
+    }
+    .dropdown_menu{
+        display: block;
+    }
+}
+@media(max-width: 576px){
+    .dropdown_menu{
+        left:  2rem;
+        width: unset;
+    }
+}
+
+section#hero{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+#hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: goldenrod;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px 3px #000
+}
+#hero p{
+    font-size: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+    text-shadow: 1px 1px 3px #000;
+}

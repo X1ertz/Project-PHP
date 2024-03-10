@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+}
+
+ 
+  .outer-box {
+    margin-top: 4em;
+    background-color: #ffffff6c;
+    border: 1px solid #000000;
+    padding: 10px;
+    max-width: 40vw; /* กำหนดความกว้างสูงสุดเป็น 90% ของ viewport width */
+    height: 600px;
+    border-radius: 30px;
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y:visible;
+}
+
+.message-box {
+    margin-right: 2em;
+    width: 88%; 
+    margin-top: 1em;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    word-wrap: break-word;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+  .like-button {
+    margin-top: 10px;
+    background-color: #f55e5e;
+    border: none;
+    padding: 5px ;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-left: 2em;
+    font-size: 16px;
+    transition: 0.5s ease;
+  }
+  .like-button:hover{
+    background-color: #65bb3e;
+  }
+
+  .post-form {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.message-input {
+    width: 97%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(250, 88, 88);
+}
+
+ 
